@@ -1,0 +1,155 @@
+{
+  "slug": "google-ads-waste-audit",
+  "signupUrl": "/account/sign-up?utm_source=google&utm_medium=cpc&utm_campaign=google-ads-waste-audit",
+  "prefillPrompt": "Audit my Google Ads account for waste",
+  "ctaButtonText": "Audit my Google Ads",
+  "hero": {
+    "headline": "Your Google Ads are wasting money.",
+    "headlineMuted": "See exactly where in 60 seconds.",
+    "subhead": "Connect your Google Ads account. Toffu reads every campaign, ad group, and keyword. It finds the spend with no conversions, the bids going nowhere, and the search terms you never wanted, then tells you exactly what to fix."
+  },
+  "demo": [
+    {
+      "role": "user",
+      "content": "Audit my Google Ads account for waste",
+      "delay": 0
+    },
+    {
+      "role": "tool",
+      "content": "Connecting to Google Ads API...",
+      "delay": 800
+    },
+    {
+      "role": "tool",
+      "content": "Pulling 38 campaigns, 14,200 search terms, last 30 days...",
+      "delay": 2200
+    },
+    {
+      "role": "assistant",
+      "content": "**Google Ads Waste Audit, Last 30 Days**\nTotal spend: $31,450 | Conversions: 284 | Average CPA: $110.74\n\n---\n\n**Wasted Spend Found: $9,320**\n\n1. **Campaign \"Brand - Exact\"** spent **$3,100** matching broad queries unrelated to your brand\n 87 irrelevant search terms eating budget. Adding 34 negatives saves an estimated $1,200/month.\n\n2. **Ad Group \"Services - General\"** spent **$2,840**, 0 conversions, 30 days\n CPA infinite. Bidding on head terms with no commercial intent. Recommend pause or restructure.\n\n3. **14 keywords** with Quality Score 3 or below, combined spend **$1,980**\n Low QS means you're paying 2-3x more per click than competitors. Recommend pausing and rewriting ads.\n\n---\n\n**Search Term Issues:**\n- 34 irrelevant search terms with spend and 0 conversions\n- 12 branded terms being stolen by competitor campaigns\n- 8 ad groups with no negative keywords at all\n\n**I can fix these now:**\n- Add 34 negative keywords (blocks irrelevant spend immediately)\n- Pause 2 zero-conversion ad groups ($2,840 protected)\n- Flag low-QS keywords for ad copy rewrite\n\nSay \"do it\" and I'll execute.",
+      "delay": 3800
+    }
+  ],
+  "findings": {
+    "kicker": "What the audit finds",
+    "title": "The specific problems draining your budget",
+    "items": [
+      {
+        "title": "Keywords spending with zero conversions",
+        "desc": "Keywords that have been running for weeks, collecting spend, and generating no leads or purchases. You'll see each one, the total wasted, and whether to pause or restructure the ad group around it."
+      },
+      {
+        "title": "Irrelevant search terms eating your budget",
+        "desc": "Broad and phrase match keywords matching searches your business has nothing to do with. You'll see the exact search terms, what they cost, and the negatives to add to stop them."
+      },
+      {
+        "title": "Low Quality Score keywords costing you double",
+        "desc": "Keywords with Quality Scores of 3 or below mean Google is charging you a premium on every click. You'll see which keywords are penalized and what's dragging the score down."
+      },
+      {
+        "title": "Campaigns blowing past your target CPA",
+        "desc": "Campaigns where cost-per-conversion is 2x or 3x your target. You'll see the exact numbers, the gap against your goal, and whether to restructure bids or pause entirely."
+      },
+      {
+        "title": "Ad groups with no negative keywords",
+        "desc": "Ad groups running wide open with nothing blocking irrelevant traffic. A single session finds these and builds a negative keyword list from your actual search term report."
+      },
+      {
+        "title": "Overlapping keywords bidding against themselves",
+        "desc": "Multiple ad groups or campaigns competing for the same queries, driving up your own costs. You'll see the overlaps and which campaigns to consolidate."
+      }
+    ]
+  },
+  "howItWorks": {
+    "kicker": "How it works",
+    "title": "Connect. Audit. Fix.",
+    "steps": [
+      {
+        "title": "Connect your Google Ads account",
+        "desc": "One-click OAuth. Takes 10 seconds. Toffu gets read access to your campaign and search term data. Nothing changes unless you tell it to."
+      },
+      {
+        "title": "Run the audit",
+        "desc": "Type \"audit my Google Ads for waste\" and Toffu pulls every campaign, ad group, keyword, and search term from the last 30 days. Analysis takes about 60 seconds."
+      },
+      {
+        "title": "See what's wasting money",
+        "desc": "Get a breakdown of every problem: zero-conversion keywords, irrelevant search terms, low Quality Scores, CPA blowouts, and missing negatives, with exactly what to do about each."
+      }
+    ]
+  },
+  "afterSection": {
+    "kicker": "After the audit",
+    "title": "You don't just get a report. You get fixes.",
+    "subhead": "Toffu doesn't stop at telling you what's wrong. It offers to make the changes for you. Say \"do it\" and it executes.",
+    "items": [
+      {
+        "title": "Add negative keywords",
+        "desc": "Irrelevant search terms get blocked at the campaign and ad group level. Toffu adds the negatives across all affected campaigns at once."
+      },
+      {
+        "title": "Pause zero-conversion keywords",
+        "desc": "Keywords spending without converting get flagged. Toffu pauses them and shows you how much budget that frees up per month."
+      },
+      {
+        "title": "Reallocate to winners",
+        "desc": "Freed budget gets shifted toward campaigns and ad groups that are actually converting. You approve before any budget moves."
+      },
+      {
+        "title": "Flag low Quality Score issues",
+        "desc": "Low-QS keywords get flagged with root cause: ad relevance, landing page, or expected CTR. Toffu can rewrite the ads to fix them."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Do I need to stop using Google Ads Manager?",
+      "answer": "No. Toffu connects to your existing Google Ads account via OAuth. You keep using Google Ads exactly as before. Toffu reads your data, finds waste, and makes changes only when you approve them."
+    },
+    {
+      "question": "How long does the audit take?",
+      "answer": "About 60 seconds. Toffu connects to the Google Ads API, pulls your campaign and search term data, and analyzes it in real time. No CSV exports, no waiting for a report."
+    },
+    {
+      "question": "Does this work for small accounts?",
+      "answer": "Yes. Whether you spend $1,000/month or $1,000,000/month, the audit works the same way. Smaller accounts often have proportionally more waste because search term reports get less attention."
+    },
+    {
+      "question": "Will Toffu make changes to my account automatically?",
+      "answer": "Never without your permission. The audit shows you what's wrong and recommends fixes. If you want Toffu to execute a change, you explicitly tell it to. Nothing happens behind your back."
+    },
+    {
+      "question": "What does it cost?",
+      "answer": "You get 1000 credits when you sign up, enough to run a full audit. No credit card required. If you want to run more audits or have Toffu fix things, plans start at $100/month."
+    },
+    {
+      "question": "What platforms does Toffu support besides Google Ads?",
+      "answer": "Meta Ads, LinkedIn Ads, TikTok Ads, Bing Ads, Google Analytics, Search Console, and more. But this page is about one thing: finding what's wasting money in your Google Ads account."
+    }
+  ],
+  "finalCta": {
+    "title": "Your Google Ads are spending right now.",
+    "subhead": "Some of that spend is going to keywords with no conversions, search terms you never intended to match, and ad groups Google is charging a premium to run. Find out which ones in 60 seconds."
+  },
+  "seo": {
+    "title": "Your Google Ads Are Wasting Money. See Where in 60 Seconds | Toffu",
+    "description": "Connect your Google Ads account. See exactly which campaigns, keywords, and search terms are wasting your budget. Then fix them. Takes 60 seconds.",
+    "keywords": [
+      "google ads audit",
+      "google ads waste audit",
+      "google ads wasting money",
+      "google ads not converting",
+      "google ads cpa too high",
+      "google ads audit tool",
+      "google ads optimization",
+      "google ads search term waste",
+      "negative keywords tool",
+      "google ads quality score"
+    ],
+    "ogTitle": "Your Google Ads Are Wasting Money. See Where in 60 Seconds",
+    "ogDescription": "Connect your account. See which campaigns, keywords, and search terms are burning budget with zero conversions.",
+    "ogImage": "/og.png",
+    "twitterTitle": "Your Google Ads Are Wasting Money. See Where in 60 Seconds",
+    "twitterDescription": "Connect your account. See which campaigns, keywords, and search terms are burning budget with zero conversions."
+  }
+}

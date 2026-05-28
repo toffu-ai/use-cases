@@ -1,0 +1,153 @@
+{
+  "slug": "meta-ads-audit",
+  "signupUrl": "/account/sign-up?utm_source=google&utm_medium=cpc&utm_campaign=meta-ads-audit",
+  "prefillPrompt": "Audit my Meta Ads account",
+  "ctaButtonText": "Audit my Meta Ads",
+  "hero": {
+    "headline": "Your Meta Ads are wasting money.",
+    "headlineMuted": "See exactly where in 60 seconds.",
+    "subhead": "Connect your Meta Ads account. Toffu reads every campaign, ad set, and ad. It shows you the ones burning budget with no conversions and tells you exactly what to do."
+  },
+  "demo": [
+    {
+      "role": "user",
+      "content": "Audit my Meta Ads account",
+      "delay": 0
+    },
+    {
+      "role": "tool",
+      "content": "Connecting to Meta Ads API...",
+      "delay": 800
+    },
+    {
+      "role": "tool",
+      "content": "Pulling 47 ad sets across 12 campaigns, last 28 days...",
+      "delay": 2200
+    },
+    {
+      "role": "assistant",
+      "content": "**Meta Ads Audit, Last 28 Days**\nTotal spend: $24,180 | Purchases: 312 | Average CPA: $77.50\n\n---\n\n**Wasted Spend Found: $6,840**\n\n1. **Ad Set \"Lookalike 1%, Cold\"** spent **$2,140**, 0 purchases\n   18 days running, frequency 4.2 (audience fatigued). Recommend pause.\n\n2. **Campaign \"Spring Sale, Broad\"** spent **$1,890**, CPA **$189** (target $50)\n   3.8x over target CPA. Recommend pause or restructure.\n\n3. **Ad Set \"Interest: Marketing Tools\"** spent **$1,420**, 4 purchases, CPA $355\n   Way over target. Audience overlap with your retargeting set. Recommend pause.\n\n---\n\n**Creative Issues:**\n- 6 ads with CTR below 0.8% (account average 1.4%)\n- 3 ads in delivery learning limited (need more budget or pause)\n- 2 ad sets running ads with identical creative, no learning signal\n\n**I can fix these now:**\n- Pause the 3 wasted ad sets ($5,450 of spend protected)\n- Move budget to top-3 ROAS ad sets\n- Flag the low-CTR creatives for replacement\n\nSay \"do it\" and I'll execute.",
+      "delay": 3800
+    }
+  ],
+  "findings": {
+    "kicker": "What the audit finds",
+    "title": "The specific problems draining your budget",
+    "items": [
+      {
+        "title": "Ad sets spending with zero purchases",
+        "desc": "Ad sets that have been eating budget for over a week without a single conversion. You'll see each one, how much it spent, and a recommendation to pause or restructure."
+      },
+      {
+        "title": "Campaigns blowing past your target CPA",
+        "desc": "Campaigns where cost-per-purchase is 2x or 3x your target. You'll see the exact CPA, how it compares to your goal, and whether to pause or reallocate."
+      },
+      {
+        "title": "Audience overlap eating itself",
+        "desc": "Multiple ad sets bidding for the same people, driving up your own costs. You'll see which audiences overlap and which to consolidate."
+      },
+      {
+        "title": "Audience fatigue from high frequency",
+        "desc": "Ad sets where frequency is above 4 and performance has dropped. You'll see exactly when fatigue started and which sets need fresh creative."
+      },
+      {
+        "title": "Low-CTR creatives nobody is clicking",
+        "desc": "Ads with click-through rates well below your account average. You'll see which creatives are dragging down performance and need replacement."
+      },
+      {
+        "title": "Ad sets stuck in learning",
+        "desc": "Ad sets that never exited learning phase because of insufficient budget or events. You'll see which ones to feed and which to retire."
+      }
+    ]
+  },
+  "howItWorks": {
+    "kicker": "How it works",
+    "title": "Connect. Audit. Fix.",
+    "steps": [
+      {
+        "title": "Connect your Meta Ads account",
+        "desc": "One-click OAuth. Takes 10 seconds. Toffu gets read access to your campaign data. Nothing changes unless you tell it to."
+      },
+      {
+        "title": "Run the audit",
+        "desc": "Type \"audit my Meta Ads\" and Toffu pulls every campaign, ad set, and ad. It analyzes the last 28 days in about 60 seconds."
+      },
+      {
+        "title": "See what's wasting money",
+        "desc": "Get a breakdown of every problem: wasted ad sets, high-CPA campaigns, fatigued audiences, weak creatives, and exactly what to do about each one."
+      }
+    ]
+  },
+  "afterSection": {
+    "kicker": "After the audit",
+    "title": "You don't just get a report. You get fixes.",
+    "subhead": "Toffu doesn't stop at telling you what's wrong. It offers to make the changes for you. Say \"do it\" and it executes.",
+    "items": [
+      {
+        "title": "Pause wasted ad sets",
+        "desc": "Ad sets with spend and zero purchases get flagged. Toffu pauses them across all campaigns at once."
+      },
+      {
+        "title": "Reallocate to winners",
+        "desc": "Spend gets shifted from underperformers to the ad sets actually converting. You approve before any budget moves."
+      },
+      {
+        "title": "Flag fatigued audiences",
+        "desc": "Ad sets with high frequency and dropping performance get flagged for creative refresh or audience expansion."
+      },
+      {
+        "title": "Replace weak creatives",
+        "desc": "Low-CTR ads get flagged. Toffu can draft new creatives based on your top performers."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Do I need to stop using Meta Ads Manager?",
+      "answer": "No. Toffu connects to your existing Meta Ads account via OAuth. You keep using Ads Manager exactly as before. Toffu just reads your data, finds waste, and can make changes you approve."
+    },
+    {
+      "question": "How long does the audit take?",
+      "answer": "About 60 seconds. Toffu connects to the Meta Marketing API, pulls your campaign data, and analyzes it in real time. No CSV exports, no waiting for a report."
+    },
+    {
+      "question": "Does this work for small accounts?",
+      "answer": "Yes. Whether you spend $500/month or $500,000/month, the audit works the same way. Smaller accounts often have a higher percentage of waste because they get less attention."
+    },
+    {
+      "question": "Will Toffu make changes to my account automatically?",
+      "answer": "Never without your permission. The audit shows you what's wrong and recommends fixes. If you want Toffu to execute a fix, you explicitly tell it to. Nothing happens behind your back."
+    },
+    {
+      "question": "What does it cost?",
+      "answer": "You get 1000 credits when you sign up, enough to run a full audit. No credit card required. If you want to run more audits or have Toffu fix things, plans start at $100/month."
+    },
+    {
+      "question": "What platforms does Toffu support besides Meta Ads?",
+      "answer": "Google Ads, LinkedIn Ads, TikTok Ads, Bing Ads, Google Analytics, Search Console, and more. But this page is about one thing: finding what's wasting money in your Meta Ads account."
+    }
+  ],
+  "finalCta": {
+    "title": "Your Meta Ads are spending right now.",
+    "subhead": "Some of that spend is going to ad sets nobody is converting on, audiences that have already been hit too many times, and creatives that nobody is clicking. Find out which ones in 60 seconds."
+  },
+  "seo": {
+    "title": "Your Meta Ads Are Wasting Money. See Where in 60 Seconds | Toffu",
+    "description": "Connect your Meta Ads account. See exactly which ad sets, campaigns, and creatives are wasting your budget. Then fix them. Takes 60 seconds.",
+    "keywords": [
+      "meta ads audit",
+      "facebook ads audit",
+      "meta ads wasting money",
+      "facebook ads not converting",
+      "meta ads cpa too high",
+      "facebook ads audit tool",
+      "meta ads optimization",
+      "instagram ads audit"
+    ],
+    "ogTitle": "Your Meta Ads Are Wasting Money. See Where in 60 Seconds",
+    "ogDescription": "Connect your account. See which ad sets, campaigns, and creatives are burning budget with zero purchases.",
+    "ogImage": "/og.png",
+    "twitterTitle": "Your Meta Ads Are Wasting Money. See Where in 60 Seconds",
+    "twitterDescription": "Connect your account. See which ad sets, campaigns, and creatives are burning budget with zero purchases."
+  }
+}

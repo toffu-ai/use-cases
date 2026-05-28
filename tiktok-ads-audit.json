@@ -1,0 +1,136 @@
+{
+  "slug": "tiktok-ads-audit",
+  "signupUrl": "/account/sign-up?utm_campaign=tiktok-ads-audit",
+  "prefillPrompt": "Audit my TikTok Ads account",
+  "ctaButtonText": "Audit my TikTok Ads",
+  "hero": {
+    "headline": "Your TikTok Ads are burning budget.",
+    "headlineMuted": "See exactly where in 60 seconds.",
+    "subhead": "Connect your TikTok Ads account and Toffu instantly flags wasted spend, underperforming creatives, and audience overlap pulling down your results."
+  },
+  "demo": [
+    {
+      "role": "user",
+      "content": "Audit my TikTok Ads account",
+      "delay": 0
+    },
+    {
+      "role": "tool",
+      "content": "Pulling TikTok Ads account data...",
+      "delay": 800
+    },
+    {
+      "role": "tool",
+      "content": "Analyzing campaigns, ad groups, creatives, and spend...",
+      "delay": 2200
+    },
+    {
+      "role": "assistant",
+      "content": "Here is what I found in your TikTok Ads account:\n\n**Spend wasted on zero-conversion ad groups: $8,340** across 6 ad groups running for 14+ days with no purchases.\n\n**Top issues:**\n1. 3 ad groups targeting overlapping audiences, splitting budget and inflating CPM by ~40%\n2. Your top creative ($4,100 spend, 2.1% CTR) has a frequency of 9.4, well past fatigue threshold\n3. 2 campaigns using Broad Match audiences with no pixel signal, CPA averaging $142 vs. $61 on your retargeting campaigns\n4. Bid cap set $0.80 below recommended range on your best-performing Spark Ad, limiting delivery\n\nWant me to draft a restructure plan and pause the zero-conversion ad groups now?",
+      "delay": 3800
+    }
+  ],
+  "findings": {
+    "kicker": "What Toffu audits",
+    "title": "Every place TikTok Ads drains your budget",
+    "items": [
+      {
+        "title": "Ad groups spending with zero conversions",
+        "desc": "Ad groups that have been running for 7+ days without a single purchase or lead. You will see each one, the exact spend, and a recommendation to pause or restructure the targeting."
+      },
+      {
+        "title": "Creative fatigue",
+        "desc": "Creatives with frequency above 6 and declining CTR. Toffu flags each fatigued asset with spend, frequency score, and CTR trend so you know exactly what to refresh."
+      },
+      {
+        "title": "Audience overlap",
+        "desc": "Ad groups targeting overlapping audiences compete against each other in auction, inflating your CPM. Toffu surfaces the overlapping pairs and consolidation recommendations."
+      },
+      {
+        "title": "Bid strategy mismatches",
+        "desc": "Campaigns using Cost Cap or Bid Cap set too aggressively for their learning phase, throttling delivery and inflating CPA. You will see each case with current vs. recommended bid ranges."
+      },
+      {
+        "title": "Spark Ads with suppressed delivery",
+        "desc": "Organic posts boosted as Spark Ads that are underdelivering due to bid limits, audience size, or missing pixel signal. Toffu identifies each one and explains why delivery is throttled."
+      },
+      {
+        "title": "Pixel and event tracking gaps",
+        "desc": "Missing or misconfigured TikTok Pixel events that cause the algorithm to optimize blind. Toffu checks which conversion events are firing, which are missing, and where attribution windows are misconfigured."
+      }
+    ]
+  },
+  "howItWorks": {
+    "kicker": "How it works",
+    "title": "From connect to findings in under 60 seconds",
+    "steps": [
+      {
+        "title": "Connect your TikTok Ads account",
+        "desc": "OAuth in one click. No CSV exports, no manual setup. Toffu reads your campaigns, ad groups, creatives, and spend directly from the TikTok Ads API."
+      },
+      {
+        "title": "Toffu runs the audit automatically",
+        "desc": "Toffu analyzes your full account: spend by ad group, creative frequency and CTR trends, audience overlap, bid strategy fit, pixel event coverage, and conversion attribution."
+      },
+      {
+        "title": "Get a prioritized list of fixes",
+        "desc": "You get a clear breakdown of what to pause, what to restructure, and what to test next, ranked by revenue impact. Ask follow-up questions in plain language and Toffu answers instantly."
+      }
+    ]
+  },
+  "afterSection": {
+    "kicker": "After the audit",
+    "title": "What you can do next",
+    "subhead": "The audit is the starting point. Toffu stays connected so you can act on findings and monitor performance without switching tools.",
+    "items": [
+      {
+        "title": "Pause wasted spend in seconds",
+        "desc": "Tell Toffu which ad groups to pause and it handles it directly. No manual navigation through the TikTok Ads Manager."
+      },
+      {
+        "title": "Get creative refresh briefs",
+        "desc": "For every fatigued creative, Toffu drafts a refresh brief based on what worked: hook structure, format, audience, and angle. Hand it to your creative team or generate variations directly."
+      },
+      {
+        "title": "Set up spend anomaly alerts",
+        "desc": "Toffu monitors your account daily and pings you if spend spikes, a campaign stops delivering, or CPA drifts above your target."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Does Toffu need full access to my TikTok Ads account?",
+      "answer": "Toffu uses read-only access by default for the audit. Write permissions are only used when you explicitly ask Toffu to make a change, like pausing an ad group."
+    },
+    {
+      "question": "How long does the audit take?",
+      "answer": "Under 60 seconds for most accounts. Larger accounts with hundreds of ad groups may take 2-3 minutes."
+    },
+    {
+      "question": "Can Toffu audit TikTok Shop campaigns too?",
+      "answer": "Yes. Toffu audits Video Shopping Ads, LIVE Shopping Ads, and Product Shopping Ads alongside standard in-feed campaigns."
+    },
+    {
+      "question": "What if I have multiple TikTok Ads accounts?",
+      "answer": "You can connect multiple ad accounts and audit them separately or together. Toffu keeps the data scoped to each account."
+    },
+    {
+      "question": "Will the audit tell me what to do, not just what is wrong?",
+      "answer": "Yes. Every finding comes with a specific recommendation: pause this, restructure that, refresh this creative, fix this pixel event. You can also ask Toffu follow-up questions in plain language."
+    }
+  ],
+  "finalCta": {
+    "title": "Your TikTok budget is leaking right now.",
+    "subhead": "Zero-conversion ad groups are spending. Fatigued creatives are running. The audience overlap is inflating your CPM. Connect your account and see the full picture in 60 seconds."
+  },
+  "seo": {
+    "title": "TikTok Ads Audit | Find Wasted Spend in 60 Seconds | Toffu",
+    "description": "Audit your TikTok Ads account instantly. Toffu finds zero-conversion ad groups, fatigued creatives, audience overlap, and pixel gaps, then tells you exactly what to fix.",
+    "keywords": ["tiktok ads audit", "tiktok ads optimization", "tiktok ads wasted spend", "tiktok ads creative fatigue", "tiktok pixel audit"],
+    "ogTitle": "TikTok Ads Audit | Toffu",
+    "ogDescription": "Find wasted spend, fatigued creatives, and audience overlap in your TikTok Ads account. Toffu audits your full account in under 60 seconds.",
+    "ogImage": "/og.png",
+    "twitterTitle": "TikTok Ads Audit | Toffu",
+    "twitterDescription": "Connect your TikTok Ads account and Toffu instantly flags wasted spend, creative fatigue, and tracking gaps."
+  }
+}

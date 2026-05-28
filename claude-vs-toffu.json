@@ -1,0 +1,138 @@
+{
+  "slug": "claude-vs-toffu",
+  "signupUrl": "/account/sign-up?utm_source=facebook&utm_medium=cpc&utm_campaign=claude-vs-toffu",
+  "prefillPrompt": "What should I fix in my Google Ads campaigns?",
+  "ctaButtonText": "Connect my ad accounts",
+  "hero": {
+    "headline": "Claude is smart. Toffu knows your campaigns.",
+    "headlineMuted": "Connected in 5 minutes, no setup.",
+    "subhead": "Claude can't see your ad accounts. Toffu connects to Google Ads, Meta, and GA4 out of the box. Ask what to fix. It fixes it."
+  },
+  "demo": [
+    {
+      "role": "user",
+      "content": "What should I fix in my Google Ads campaigns?",
+      "delay": 0
+    },
+    {
+      "role": "tool",
+      "content": "Connecting to Google Ads API...",
+      "delay": 800
+    },
+    {
+      "role": "tool",
+      "content": "Pulling 14 campaigns, last 30 days...",
+      "delay": 2200
+    },
+    {
+      "role": "assistant",
+      "content": "**Google Ads Audit, Last 30 Days**\nTotal spend: $18,430 | Conversions: 204 | Average CPA: $90.34\n\n---\n\n**3 Issues Found**\n\n1. **Campaign \"Brand - Exact\"** has $4,200 spend, CPA $210 (target $60)\n   Bid strategy switched to Max Conversions 3 weeks ago. Recommend reverting to Target CPA $60.\n\n2. **Ad group \"Competitor Terms\"** spent $1,800 with 0 conversions in 14 days.\n   Recommend pausing.\n\n3. **6 keywords** with Quality Score below 4 dragging up CPCs by an estimated 22%.\n   Recommend pausing and rewriting landing page copy.\n\n---\n\n**I can fix these now.** Say go and I'll pause the dead ad group, revert the bid strategy, and flag the low-QS keywords.",
+      "delay": 3800
+    }
+  ],
+  "findings": {
+    "kicker": "The problem with Claude for ads",
+    "title": "Claude doesn't know your campaigns exist.",
+    "items": [
+      {
+        "title": "No account access",
+        "desc": "Claude has no connection to Google Ads, Meta, or GA4. Every session starts from zero. You paste data. It responds. Then it forgets."
+      },
+      {
+        "title": "Manual context every time",
+        "desc": "To get useful output from Claude, you need to export data, write a prompt, paste it in, and interpret the response. That's not a workflow. That's extra work."
+      },
+      {
+        "title": "Advice only, no execution",
+        "desc": "Even when Claude gives good recommendations, it can't act on them. You still have to go into the platform, find the right setting, and make the change."
+      },
+      {
+        "title": "No campaign history",
+        "desc": "Claude doesn't know what changed last week, what you tested last month, or what your CPA target is. Toffu remembers everything across every session."
+      },
+      {
+        "title": "No integrations",
+        "desc": "Claude works on text you give it. Toffu is connected to your stack: Google Ads, Meta Ads, GA4, Search Console, and more. Live data, every time."
+      },
+      {
+        "title": "You still do the work",
+        "desc": "Claude makes you smarter. Toffu makes you faster. It pulls the data, finds the problem, and executes the fix, without you leaving the chat."
+      }
+    ]
+  },
+  "howItWorks": {
+    "kicker": "How Toffu works",
+    "title": "Connect once. Ask anything. Toffu acts.",
+    "steps": [
+      {
+        "title": "Connect your accounts",
+        "desc": "Link Google Ads, Meta Ads, GA4, and more in under 5 minutes. No manual exports, no copy-paste. Toffu reads your live data directly."
+      },
+      {
+        "title": "Ask what to fix",
+        "desc": "Type a question like you would to a colleague. Toffu pulls the data, finds the issue, and tells you exactly what's wrong and why."
+      },
+      {
+        "title": "Toffu executes it",
+        "desc": "Pause a campaign, change a bid strategy, update ad copy. Toffu doesn't just advise, it makes the change with your approval."
+      }
+    ]
+  },
+  "afterSection": {
+    "kicker": "After you connect",
+    "title": "Your first audit takes 60 seconds.",
+    "subhead": "Most users find wasted spend on day one.",
+    "items": [
+      {
+        "title": "Instant campaign audit",
+        "desc": "Toffu reads every campaign, ad set, and keyword and surfaces the ones spending without results."
+      },
+      {
+        "title": "Specific fixes, not generic tips",
+        "desc": "Not 'check your quality scores'. Toffu tells you which 6 keywords to pause and why, with the numbers to back it up."
+      },
+      {
+        "title": "One-click execution",
+        "desc": "Approve the recommendation and Toffu makes the change. No platform-switching, no second tool."
+      },
+      {
+        "title": "Ongoing monitoring",
+        "desc": "Set up daily or weekly checks. Toffu alerts you when something breaks before you notice it in the numbers."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can't I just use Claude with a copy-pasted export?",
+      "answer": "You can, but it's slow, manual, and you lose context the moment you close the tab. Toffu is connected to your live accounts, so you never start from scratch."
+    },
+    {
+      "question": "What platforms does Toffu connect to?",
+      "answer": "Google Ads, Meta Ads, Google Analytics 4, Search Console, LinkedIn Ads, and more. All connected in one place."
+    },
+    {
+      "question": "Does Toffu make changes automatically?",
+      "answer": "No. Toffu always shows you what it plans to do and asks for approval before executing anything. You stay in control."
+    },
+    {
+      "question": "How long does setup take?",
+      "answer": "Under 5 minutes. Connect your accounts via OAuth, no API keys or manual configuration needed."
+    },
+    {
+      "question": "Is this just for Google Ads?",
+      "answer": "No. Toffu works across all your connected channels. Ask about Meta spend, GA4 traffic, Search Console rankings, or all of them at once."
+    }
+  ],
+  "finalCta": {
+    "title": "Your campaigns are running right now.",
+    "subhead": "Toffu can read them in 60 seconds and tell you exactly what to fix. Claude can't."
+  },
+  "seo": {
+    "title": "Claude vs Toffu for Ad Management | Toffu AI",
+    "description": "Claude is smart but it can't see your ad accounts. Toffu connects to Google Ads, Meta, and GA4 out of the box. Ask what to fix. It fixes it.",
+    "keywords": ["claude vs toffu", "ai for google ads", "ai ad management", "toffu ai", "claude for marketing", "ai marketing tool"],
+    "ogTitle": "Claude needs setup. Toffu doesn't.",
+    "ogDescription": "Toffu connects to your ad accounts out of the box. No exports, no prompts, no manual work. Just ask what to fix.",
+    "ogImage": "/og.png"
+  }
+}

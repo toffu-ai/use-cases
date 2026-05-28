@@ -1,0 +1,153 @@
+{
+  "slug": "linkedin-ads-audit",
+  "signupUrl": "/account/sign-up?utm_source=google&utm_medium=cpc&utm_campaign=linkedin-ads-audit",
+  "prefillPrompt": "Audit my LinkedIn Ads account",
+  "ctaButtonText": "Audit my LinkedIn Ads",
+  "hero": {
+    "headline": "Your LinkedIn Ads are burning budget.",
+    "headlineMuted": "See exactly where in 60 seconds.",
+    "subhead": "Connect your LinkedIn Ads account. Toffu reads every campaign group, campaign, and ad. It shows you the ones spending with no leads and tells you exactly what to do."
+  },
+  "demo": [
+    {
+      "role": "user",
+      "content": "Audit my LinkedIn Ads account",
+      "delay": 0
+    },
+    {
+      "role": "tool",
+      "content": "Connecting to LinkedIn Ads API...",
+      "delay": 800
+    },
+    {
+      "role": "tool",
+      "content": "Pulling 31 campaigns across 6 campaign groups, last 28 days...",
+      "delay": 2200
+    },
+    {
+      "role": "assistant",
+      "content": "**LinkedIn Ads Audit, Last 28 Days**\nTotal spend: $18,640 | Leads: 94 | Average CPL: $198.30\n\n---\n\n**Wasted Spend Found: $5,210**\n\n1. **Campaign \"Director, Finance, Broad Match\"** spent **$2,380**, 0 leads\n   21 days running, CTR 0.28% (account average 0.71%). Recommend pause.\n\n2. **Campaign \"Retargeting, Website Visitors\"** spent **$1,640**, CPL **$546** (target $150)\n   3.6x over target CPL. Audience too small to scale. Recommend consolidate.\n\n3. **Campaign \"Job Function: IT, EU\"** spent **$1,190**, 3 leads, CPL $397\n   Way over target. Bid too aggressive for audience size. Recommend lower bid or pause.\n\n---\n\n**Targeting Issues:**\n- 4 campaigns with audience size under 10,000 (too narrow to exit learning)\n- 3 campaign groups bidding on overlapping job titles\n- 2 campaigns with no exclusions applied (hitting existing customers)\n\n**I can fix these now:**\n- Pause the 3 wasted campaigns ($5,210 of spend protected)\n- Move budget to top-2 CPL campaigns\n- Flag narrow audiences for expansion\n\nSay \"do it\" and I'll execute.",
+      "delay": 3800
+    }
+  ],
+  "findings": {
+    "kicker": "What the audit finds",
+    "title": "The specific problems draining your LinkedIn budget",
+    "items": [
+      {
+        "title": "Campaigns spending with zero leads",
+        "desc": "Campaigns that have been running for weeks without generating a single lead or form fill. You'll see each one, how much it spent, and a recommendation to pause or restructure."
+      },
+      {
+        "title": "Campaigns blowing past your target CPL",
+        "desc": "Campaigns where cost-per-lead is 2x or 3x your target. You'll see the exact CPL, how it compares to your goal, and whether to pause or reallocate."
+      },
+      {
+        "title": "Audiences too narrow to work",
+        "desc": "Campaigns targeting fewer than 10,000 people, preventing LinkedIn from exiting the learning phase. You'll see which campaigns are stuck and what to expand."
+      },
+      {
+        "title": "Overlapping targeting eating your own budget",
+        "desc": "Multiple campaigns bidding on the same job titles, seniorities, or company lists, driving up costs internally. You'll see exactly which campaigns overlap and which to consolidate."
+      },
+      {
+        "title": "Low-CTR ads nobody is clicking",
+        "desc": "Creatives with click-through rates well below your account average. You'll see which ads are dragging performance and need replacement."
+      },
+      {
+        "title": "Missing exclusions hitting the wrong people",
+        "desc": "Campaigns with no customer list or competitor exclusions applied, wasting impressions on people who will never convert. You'll see the gaps and what to add."
+      }
+    ]
+  },
+  "howItWorks": {
+    "kicker": "How it works",
+    "title": "Connect. Audit. Fix.",
+    "steps": [
+      {
+        "title": "Connect your LinkedIn Ads account",
+        "desc": "One-click OAuth. Takes 10 seconds. Toffu gets read access to your campaign data. Nothing changes unless you tell it to."
+      },
+      {
+        "title": "Run the audit",
+        "desc": "Type \"audit my LinkedIn Ads\" and Toffu pulls every campaign group, campaign, and ad. It analyzes the last 28 days in about 60 seconds."
+      },
+      {
+        "title": "See what's wasting money",
+        "desc": "Get a breakdown of every problem: campaigns with no leads, high-CPL campaigns, narrow audiences, overlapping targeting, weak creatives, and exactly what to do about each one."
+      }
+    ]
+  },
+  "afterSection": {
+    "kicker": "After the audit",
+    "title": "You don't just get a report. You get fixes.",
+    "subhead": "Toffu doesn't stop at telling you what's wrong. It offers to make the changes for you. Say \"do it\" and it executes.",
+    "items": [
+      {
+        "title": "Pause wasted campaigns",
+        "desc": "Campaigns with spend and zero leads get flagged. Toffu pauses them across all campaign groups at once."
+      },
+      {
+        "title": "Reallocate to winners",
+        "desc": "Spend gets shifted from underperformers to the campaigns actually generating leads. You approve before any budget moves."
+      },
+      {
+        "title": "Fix narrow audiences",
+        "desc": "Campaigns stuck in learning due to small audience size get flagged with specific expansion recommendations."
+      },
+      {
+        "title": "Replace weak creatives",
+        "desc": "Low-CTR ads get flagged. Toffu can draft new ad copy and headlines based on your top performers."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Do I need to stop using LinkedIn Campaign Manager?",
+      "answer": "No. Toffu connects to your existing LinkedIn Ads account via OAuth. You keep using Campaign Manager exactly as before. Toffu reads your data, finds waste, and can make changes you approve."
+    },
+    {
+      "question": "How long does the audit take?",
+      "answer": "About 60 seconds. Toffu connects to the LinkedIn Ads API, pulls your campaign data, and analyzes it in real time. No CSV exports, no waiting for a report."
+    },
+    {
+      "question": "Does this work for small accounts?",
+      "answer": "Yes. LinkedIn Ads are expensive by default, which means even small accounts have meaningful waste to find. The audit works the same whether you spend $2,000/month or $200,000/month."
+    },
+    {
+      "question": "Will Toffu make changes to my account automatically?",
+      "answer": "Never without your permission. The audit shows you what's wrong and recommends fixes. If you want Toffu to execute a fix, you explicitly tell it to. Nothing happens behind your back."
+    },
+    {
+      "question": "What does it cost?",
+      "answer": "You get 1000 credits when you sign up, enough to run a full audit. No credit card required. If you want to run more audits or have Toffu fix things, plans start at $100/month."
+    },
+    {
+      "question": "What platforms does Toffu support besides LinkedIn Ads?",
+      "answer": "Google Ads, Meta Ads, TikTok Ads, Bing Ads, Google Analytics, Search Console, and more. But this page is about one thing: finding what's wasting money in your LinkedIn Ads account."
+    }
+  ],
+  "finalCta": {
+    "title": "Your LinkedIn Ads are spending right now.",
+    "subhead": "Some of that spend is going to campaigns with no leads, audiences too narrow to convert, and creatives nobody is clicking. Find out which ones in 60 seconds."
+  },
+  "seo": {
+    "title": "Your LinkedIn Ads Are Burning Budget. See Where in 60 Seconds | Toffu",
+    "description": "Connect your LinkedIn Ads account. See exactly which campaigns, ad sets, and creatives are wasting your budget. Then fix them. Takes 60 seconds.",
+    "keywords": [
+      "linkedin ads audit",
+      "linkedin ads wasting money",
+      "linkedin ads not converting",
+      "linkedin ads cpl too high",
+      "linkedin ads audit tool",
+      "linkedin ads optimization",
+      "linkedin campaign audit",
+      "linkedin b2b ads audit"
+    ],
+    "ogTitle": "Your LinkedIn Ads Are Burning Budget. See Where in 60 Seconds",
+    "ogDescription": "Connect your account. See which campaigns and creatives are spending with zero leads.",
+    "ogImage": "/og.png",
+    "twitterTitle": "Your LinkedIn Ads Are Burning Budget. See Where in 60 Seconds",
+    "twitterDescription": "Connect your account. See which campaigns and creatives are spending with zero leads."
+  }
+}

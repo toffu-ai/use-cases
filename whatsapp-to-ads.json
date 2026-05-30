@@ -11,22 +11,22 @@
   "demo": [
     {
       "role": "user",
-      "content": "Create a Meta ad for our summer sale with a visual",
+      "content": "Create a Meta ad for our summer sale",
       "delay": 0
     },
     {
       "role": "tool",
-      "content": "Generating ad creative...",
+      "content": "Connecting to Meta Ads account...",
       "delay": 800
     },
     {
       "role": "tool",
-      "content": "Uploading to Meta Ads account...",
+      "content": "Uploading ad to Meta Ads...",
       "delay": 2200
     },
     {
       "role": "assistant",
-      "content": "**Meta Ad Creative Ready**\n\n![Ad Creative](https://i.toffu.ai/m7k3lkbx.png)\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now | Landing page: yourdomain.com/summer-sale\n\nCreative generated and uploaded to your Meta Ads account.\nAd is paused for your review.\n\nSay \"go live\" and I'll activate it.",
+      "content": "**Meta Ad Ready**\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now | Landing page: yourdomain.com/summer-sale\n\nAd uploaded to your Meta Ads account. Paused for your review.\n\nSay \"go live\" and I'll activate it.",
       "delay": 3800
     },
     {
@@ -122,7 +122,7 @@
       "question": "Which ad platforms does this work with?",
       "answer": "Meta Ads (Facebook and Instagram) and Google Ads (Search and Performance Max). More platforms coming."
     },
-    {
+      {
       "question": "Do I need to know how to use Meta or Google Ads?",
       "answer": "No. You describe what you want in plain language. Toffu handles the platform-specific setup."
     },

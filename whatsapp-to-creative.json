@@ -27,9 +27,14 @@
     {
       "role": "assistant",
       "content": "**Meta Ad Creative Ready**\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now\n\nCreative uploaded to your Meta Ads account. Paused for your review.\n\nSay \"go live\" and I'll activate it.",
+      "imageUrl": "https://i.toffu.ai/m7k3lkbx.png",
       "delay": 3800
     }
   ],
+  "previewImage": {
+    "url": "https://i.toffu.ai/m7k3lkbx.png",
+    "caption": "Example creative generated from WhatsApp"
+  },
   "howItWorks": {
     "kicker": "HOW IT WORKS",
     "title": "From brief to live creative in three steps.",

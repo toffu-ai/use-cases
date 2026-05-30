@@ -1,0 +1,158 @@
+{
+  "slug": "whatsapp-to-ads",
+  "signupUrl": "/account/sign-up?utm_source=organic&utm_medium=referral&utm_campaign=whatsapp-to-ads",
+  "prefillPrompt": "Create a Meta ad for our summer sale",
+  "ctaButtonText": "Launch your first campaign",
+  "hero": {
+    "headline": "Launch campaigns from WhatsApp.",
+    "headlineMuted": "Write a message. Get a creative. Go live in 60 seconds.",
+    "subhead": "Tell Toffu what you want to advertise. It builds the creative or campaign, and pushes it live to Meta or Google Ads. No dashboards. No back and forth. Just chat."
+  },
+  "demo": [
+    {
+      "role": "user",
+      "content": "Create a search campaign for our summer sale, $50/day budget, targeting the US",
+      "delay": 0
+    },
+    {
+      "role": "tool",
+      "content": "Connecting to Google Ads...",
+      "delay": 800
+    },
+    {
+      "role": "tool",
+      "content": "Generating keywords, headlines, and descriptions...",
+      "delay": 2200
+    },
+    {
+      "role": "assistant",
+      "content": "**Google Search Campaign Ready**\n\nCampaign: \"Summer Sale 2026\"\nBudget: $50/day | Targeting: United States | Bidding: Maximize Conversions\n\n**Ad Group: Summer Sale**\n- 8 keywords (EXACT + PHRASE): \"summer sale\", \"summer deals 2026\", \"buy summer collection\" and 5 more\n- 3 headlines: \"Summer Sale Is Live\", \"Up to 40% Off This Summer\", \"Shop the Summer Sale Now\"\n- 2 descriptions: \"Limited-time summer deals on everything you need. Free shipping over $50.\" | \"Shop now and save big. Sale ends soon.\"\n\nCampaign is paused for your review.\n\nSay \"go live\" and I'll enable it.",
+      "delay": 3800
+    },
+    {
+      "role": "user",
+      "content": "Now create a Meta ad for the same campaign with a visual",
+      "delay": 6000
+    },
+    {
+      "role": "tool",
+      "content": "Generating ad creative...",
+      "delay": 6800
+    },
+    {
+      "role": "tool",
+      "content": "Uploading to Meta Ads account...",
+      "delay": 8200
+    },
+    {
+      "role": "assistant",
+      "content": "**Meta Ad Creative Ready**\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now | Landing page: yourdomain.com/summer-sale\n\nCreative generated and uploaded to your Meta Ads account.\nAd is paused for your review.\n\nSay \"go live\" and I'll activate it.",
+      "delay": 9400
+    }
+  ],
+  "howItWorks": {
+    "kicker": "HOW IT WORKS",
+    "title": "Three steps from idea to live campaign.",
+    "steps": [
+      {
+        "title": "Send a message",
+        "desc": "Describe your campaign in plain language. What you're promoting, budget, target audience. No forms, no dashboards."
+      },
+      {
+        "title": "Toffu builds it",
+        "desc": "Toffu generates the full campaign or ad creative. Keywords, headlines, descriptions, visuals. Everything ready for review."
+      },
+      {
+        "title": "Go live",
+        "desc": "Approve and Toffu pushes it live to Meta Ads or Google Ads. You stay in WhatsApp the entire time."
+      }
+    ]
+  },
+  "findings": {
+    "kicker": "WHAT YOU CAN DO",
+    "title": "Everything from one WhatsApp chat.",
+    "items": [
+      {
+        "title": "Google Search campaigns",
+        "desc": "Describe your goal and budget. Toffu builds the full campaign: keywords, match types, ad copy, bidding strategy. Ready to launch in under a minute."
+      },
+      {
+        "title": "Meta ad creatives",
+        "desc": "Tell Toffu what to promote. It generates the visual, headline, and primary text. Then uploads it directly to your Meta Ads account."
+      },
+      {
+        "title": "Campaign targeting",
+        "desc": "Specify your audience in plain language. Toffu translates it into the right targeting settings on Meta or Google, no platform knowledge required."
+      },
+      {
+        "title": "Budget and bidding",
+        "desc": "Set a daily or lifetime budget in the chat. Toffu applies the right bidding strategy based on your campaign goal."
+      },
+      {
+        "title": "Review before launch",
+        "desc": "Everything is created paused. You review the full setup, approve it, and only then does it go live. You stay in control."
+      },
+      {
+        "title": "Iterate in chat",
+        "desc": "Change the headline, swap the image, adjust the budget. Just say what you want to change. Toffu updates it without you opening any platform."
+      }
+    ]
+  },
+  "afterSection": {
+    "kicker": "AFTER YOU LAUNCH",
+    "title": "Toffu keeps watching.",
+    "subhead": "Once your campaign is live, Toffu monitors performance and surfaces issues before they become expensive.",
+    "items": [
+      {
+        "title": "Spend anomalies",
+        "desc": "If a campaign suddenly overspends or goes to zero, Toffu flags it in WhatsApp before you notice it in the platform."
+      },
+      {
+        "title": "Creative fatigue alerts",
+        "desc": "When frequency climbs and CTR drops, Toffu tells you which ad is tired and suggests what to replace it with."
+      },
+      {
+        "title": "Performance summaries",
+        "desc": "Ask \"how's my campaign doing?\" and get a real answer: spend, conversions, CPA, and what to do next."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Which ad platforms does this work with?",
+      "answer": "Meta Ads (Facebook and Instagram) and Google Ads (Search and Performance Max). More platforms coming."
+    },
+    {
+      "question": "Do I need to know how to use Meta or Google Ads?",
+      "answer": "No. You describe what you want in plain language. Toffu handles the platform-specific setup."
+    },
+    {
+      "question": "Does the campaign go live automatically?",
+      "answer": "No. Everything is created paused. You review the full setup in chat and approve before anything goes live."
+    },
+    {
+      "question": "Can I edit the campaign after it's created?",
+      "answer": "Yes. Just say what you want to change in WhatsApp. Toffu updates the campaign directly on the platform."
+    },
+    {
+      "question": "How does Toffu generate the visual for Meta ads?",
+      "answer": "Toffu generates the image based on your brief using AI, matching your brand colors and messaging. You can approve or ask for changes before it's uploaded."
+    },
+    {
+      "question": "Is my ad account data safe?",
+      "answer": "Toffu connects via official APIs with read and write permissions you control. Nothing is shared or stored beyond what's needed to execute the task."
+    }
+  ],
+  "finalCta": {
+    "title": "Your next campaign is one message away.",
+    "subhead": "Right now you're switching between WhatsApp, Meta Ads, and Google Ads to do what Toffu does in a single chat. Stop switching."
+  },
+  "seo": {
+    "title": "Launch Google and Meta Campaigns from WhatsApp | Toffu AI",
+    "description": "Create ad creatives and launch Google or Meta campaigns directly from WhatsApp. No dashboards. Write a message, get a campaign, go live in 60 seconds.",
+    "keywords": ["launch campaigns from whatsapp", "create meta ads from chat", "google ads from whatsapp", "ai ad campaign creator", "whatsapp to meta ads", "whatsapp to google ads"],
+    "ogTitle": "Launch Campaigns from WhatsApp",
+    "ogDescription": "Write a message. Get a creative. Go live on Meta or Google Ads in 60 seconds.",
+    "ogImage": "/og.png"
+  }
+}

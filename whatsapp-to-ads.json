@@ -46,7 +46,7 @@
     },
     {
       "role": "assistant",
-      "content": "**Meta Ad Creative Ready**\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now | Landing page: yourdomain.com/summer-sale\n\nCreative generated and uploaded to your Meta Ads account.\nAd is paused for your review.\n\nSay \"go live\" and I'll activate it.",
+      "content": "**Meta Ad Creative Ready**\n\n![Ad Creative](https://i.toffu.ai/m7k3lkbx.png)\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now | Landing page: yourdomain.com/summer-sale\n\nCreative generated and uploaded to your Meta Ads account.\nAd is paused for your review.\n\nSay \"go live\" and I'll activate it.",
       "delay": 9400
     }
   ],

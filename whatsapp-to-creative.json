@@ -1,0 +1,138 @@
+{
+  "slug": "whatsapp-to-creative",
+  "signupUrl": "/account/sign-up?utm_source=organic&utm_medium=referral&utm_campaign=whatsapp-to-creative",
+  "prefillPrompt": "Create a Meta ad for our summer sale",
+  "ctaButtonText": "Create your first ad",
+  "hero": {
+    "headline": "Create Meta ad creatives from WhatsApp.",
+    "headlineMuted": "Describe your ad. Get a visual. Upload to Meta in 60 seconds.",
+    "subhead": "Tell Toffu what you want to promote. It generates the image, headline, and copy. Then uploads the creative directly to your Meta Ads account. You stay in WhatsApp the entire time."
+  },
+  "demo": [
+    {
+      "role": "user",
+      "content": "Create a Meta ad for our summer sale. Warm background, show the discount clearly.",
+      "delay": 0
+    },
+    {
+      "role": "tool",
+      "content": "Generating ad creative...",
+      "delay": 800
+    },
+    {
+      "role": "tool",
+      "content": "Uploading to Meta Ads account...",
+      "delay": 2200
+    },
+    {
+      "role": "assistant",
+      "content": "**Meta Ad Creative Ready**\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now\n\nCreative uploaded to your Meta Ads account. Paused for your review.\n\nSay \"go live\" and I'll activate it.",
+      "delay": 3800
+    }
+  ],
+  "howItWorks": {
+    "kicker": "HOW IT WORKS",
+    "title": "From brief to live creative in three steps.",
+    "steps": [
+      {
+        "title": "Describe your ad",
+        "desc": "Tell Toffu what you're promoting, the tone, and any visual direction. Plain language. No brief template."
+      },
+      {
+        "title": "Toffu generates the creative",
+        "desc": "Toffu creates the image, headline, and primary text. You see the full creative before anything is uploaded."
+      },
+      {
+        "title": "Uploaded to Meta",
+        "desc": "Approve it and Toffu uploads the creative directly to your Meta Ads account. Ready to attach to any campaign."
+      }
+    ]
+  },
+  "findings": {
+    "kicker": "WHAT YOU GET",
+    "title": "A complete Meta creative. From one message.",
+    "items": [
+      {
+        "title": "AI-generated visuals",
+        "desc": "Toffu generates the ad image based on your brief. Warm brand colors, clear message, built for Meta placements."
+      },
+      {
+        "title": "Headlines and primary text",
+        "desc": "Copy written for the ad automatically. Headline, primary text, and CTA — all generated and ready to edit."
+      },
+      {
+        "title": "Feed and story formats",
+        "desc": "Get the creative in the right format for feed, story, and reels. Each placement gets the right dimensions."
+      },
+      {
+        "title": "Uploaded directly to Meta",
+        "desc": "No downloading, no uploading manually. Toffu pushes the creative straight to your Meta Ads account."
+      },
+      {
+        "title": "Review before it goes live",
+        "desc": "The creative is uploaded paused. You review it, request changes, or approve — all in the same WhatsApp conversation."
+      },
+      {
+        "title": "Iterate in chat",
+        "desc": "Change the headline, swap the image, adjust the copy. Just say what you want. Toffu updates it without you opening Ads Manager."
+      }
+    ]
+  },
+  "afterSection": {
+    "kicker": "AFTER YOU LAUNCH",
+    "title": "Toffu watches performance so you don't have to.",
+    "subhead": "Once your creative is live, Toffu monitors how it's performing and flags issues before they become expensive.",
+    "items": [
+      {
+        "title": "Creative fatigue alerts",
+        "desc": "When frequency climbs and CTR drops, Toffu tells you which creative is tired and what to replace it with."
+      },
+      {
+        "title": "Performance summaries",
+        "desc": "Ask 'how's my ad doing?' and get spend, impressions, CTR, and CPA — plus a recommendation."
+      },
+      {
+        "title": "New creative on demand",
+        "desc": "When a creative stops performing, brief a replacement in WhatsApp. New creative uploaded in under a minute."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What does the generated image look like?",
+      "answer": "Toffu generates images that match your brand colors and messaging. You can see an example of the output at toffu.ai/use-cases/whatsapp-to-creative."
+    },
+    {
+      "question": "Can I request changes before it goes live?",
+      "answer": "Yes. The creative is always uploaded paused. Review it in chat, request changes, and approve when ready."
+    },
+    {
+      "question": "Does it work for both Facebook and Instagram?",
+      "answer": "Yes. Toffu generates creatives for both feed and story placements across Facebook and Instagram."
+    },
+    {
+      "question": "Do I need design skills?",
+      "answer": "No. You describe what you want in plain language. Toffu handles the design and copy."
+    },
+    {
+      "question": "Is the creative uploaded automatically?",
+      "answer": "No. You approve it in chat first. Only then does Toffu upload it to your Meta Ads account."
+    },
+    {
+      "question": "Can I use my own images?",
+      "answer": "Yes. Send Toffu an image and it will use it as the base for the creative, or upload it directly as-is."
+    }
+  ],
+  "finalCta": {
+    "title": "Your next Meta creative is one message away.",
+    "subhead": "Right now you're opening Canva, downloading files, and uploading to Ads Manager. Toffu does all of that from a single WhatsApp message."
+  },
+  "seo": {
+    "title": "Create Meta Ad Creatives from WhatsApp | Toffu AI",
+    "description": "Generate Meta ad creatives from WhatsApp. Describe your ad, get a visual and copy, upload to Meta Ads in 60 seconds. No Canva. No Ads Manager.",
+    "keywords": ["create meta ad creative whatsapp", "ai ad creative generator", "meta ads creative from chat", "whatsapp to meta ads", "ai facebook ad creative", "generate ad creative automatically"],
+    "ogTitle": "Create Meta Ad Creatives from WhatsApp",
+    "ogDescription": "Describe your ad. Get a visual. Upload to Meta in 60 seconds.",
+    "ogImage": "/og.png"
+  }
+}

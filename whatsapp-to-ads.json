@@ -11,42 +11,42 @@
   "demo": [
     {
       "role": "user",
-      "content": "Create a search campaign for our summer sale, $50/day budget, targeting the US",
+      "content": "Create a Meta ad for our summer sale with a visual",
       "delay": 0
     },
     {
       "role": "tool",
-      "content": "Connecting to Google Ads...",
+      "content": "Generating ad creative...",
       "delay": 800
     },
     {
       "role": "tool",
-      "content": "Generating keywords, headlines, and descriptions...",
+      "content": "Uploading to Meta Ads account...",
       "delay": 2200
     },
     {
       "role": "assistant",
-      "content": "**Google Search Campaign Ready**\n\nCampaign: \"Summer Sale 2026\"\nBudget: $50/day | Targeting: United States | Bidding: Maximize Conversions\n\n**Ad Group: Summer Sale**\n- 8 keywords (EXACT + PHRASE): \"summer sale\", \"summer deals 2026\", \"buy summer collection\" and 5 more\n- 3 headlines: \"Summer Sale Is Live\", \"Up to 40% Off This Summer\", \"Shop the Summer Sale Now\"\n- 2 descriptions: \"Limited-time summer deals on everything you need. Free shipping over $50.\" | \"Shop now and save big. Sale ends soon.\"\n\nCampaign is paused for your review.\n\nSay \"go live\" and I'll enable it.",
+      "content": "**Meta Ad Creative Ready**\n\n![Ad Creative](https://i.toffu.ai/m7k3lkbx.png)\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now | Landing page: yourdomain.com/summer-sale\n\nCreative generated and uploaded to your Meta Ads account.\nAd is paused for your review.\n\nSay \"go live\" and I'll activate it.",
       "delay": 3800
     },
     {
       "role": "user",
-      "content": "Now create a Meta ad for the same campaign with a visual",
+      "content": "Now create a Google search campaign for the same sale, $50/day, targeting the US",
       "delay": 6000
     },
     {
       "role": "tool",
-      "content": "Generating ad creative...",
+      "content": "Connecting to Google Ads...",
       "delay": 6800
     },
     {
       "role": "tool",
-      "content": "Uploading to Meta Ads account...",
+      "content": "Generating keywords, headlines, and descriptions...",
       "delay": 8200
     },
     {
       "role": "assistant",
-      "content": "**Meta Ad Creative Ready**\n\n![Ad Creative](https://i.toffu.ai/m7k3lkbx.png)\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now | Landing page: yourdomain.com/summer-sale\n\nCreative generated and uploaded to your Meta Ads account.\nAd is paused for your review.\n\nSay \"go live\" and I'll activate it.",
+      "content": "**Google Search Campaign Ready**\n\nCampaign: \"Summer Sale 2026\"\nBudget: $50/day | Targeting: United States | Bidding: Maximize Conversions\n\n**Ad Group: Summer Sale**\n- 8 keywords (EXACT + PHRASE): \"summer sale\", \"summer deals 2026\", \"buy summer collection\" and 5 more\n- 3 headlines: \"Summer Sale Is Live\", \"Up to 40% Off This Summer\", \"Shop the Summer Sale Now\"\n- 2 descriptions: \"Limited-time summer deals on everything you need. Free shipping over $50.\" | \"Shop now and save big. Sale ends soon.\"\n\nCampaign is paused for your review.\n\nSay \"go live\" and I'll enable it.",
       "delay": 9400
     }
   ],
@@ -73,12 +73,12 @@
     "title": "Everything from one WhatsApp chat.",
     "items": [
       {
-        "title": "Google Search campaigns",
-        "desc": "Describe your goal and budget. Toffu builds the full campaign: keywords, match types, ad copy, bidding strategy. Ready to launch in under a minute."
-      },
-      {
         "title": "Meta ad creatives",
         "desc": "Tell Toffu what to promote. It generates the visual, headline, and primary text. Then uploads it directly to your Meta Ads account."
+      },
+      {
+        "title": "Google Search campaigns",
+        "desc": "Describe your goal and budget. Toffu builds the full campaign: keywords, match types, ad copy, bidding strategy. Ready to launch in under a minute."
       },
       {
         "title": "Campaign targeting",

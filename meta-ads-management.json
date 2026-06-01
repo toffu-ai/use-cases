@@ -1,0 +1,150 @@
+{
+  "slug": "meta-ads-management",
+  "signupUrl": "/account/sign-up?utm_source=google&utm_medium=cpc&utm_campaign=meta-ads-management",
+  "prefillPrompt": "Connect my Meta Ads account and show me how you can improve my campaigns",
+  "ctaButtonText": "Connect Meta Ads and see it live",
+  "hero": {
+    "headline": "Your Meta Ads could perform a lot better.",
+    "headlineMuted": "Toffu shows you exactly how. Then does it.",
+    "subhead": "Connect your Meta Ads account. Toffu reads every campaign, ad set, and ad. It finds what's underperforming, builds new ads, and manages your budget, while you stay in control."
+  },
+  "demo": [
+    {
+      "role": "user",
+      "content": "Connect my Meta Ads and tell me what you see",
+      "delay": 0
+    },
+    {
+      "role": "tool",
+      "content": "Connecting to Meta Ads API...",
+      "delay": 800
+    },
+    {
+      "role": "tool",
+      "content": "Reading 54 ad sets across 14 campaigns, last 30 days...",
+      "delay": 2200
+    },
+    {
+      "role": "assistant",
+      "content": "**Meta Ads Overview, Last 30 Days**\nSpend: $31,400 | Purchases: 408 | Average CPA: $77\n\n---\n\n**3 things I found immediately:**\n\n1. **Ad Set \"Broad - Cold Traffic\"** spent **$4,200** with 11 purchases. CPA $381, your target is $60. Has been running 22 days. I can pause it and reallocate budget to your top ROAS ad set.\n\n2. **6 ads have CTR below 0.6%** (account average: 1.8%). These are dragging Quality Score and raising your CPMs. I drafted 3 replacement ads based on your top performer's structure.\n\n3. **Your retargeting campaign has no frequency cap.** Average frequency is 9.2. Audience is fully saturated. I can add a cap of 3 per week and create a fresh creative rotation.\n\n---\n\n**I can do all of this now:**\n- Pause the 4 underperforming ad sets ($6,800 of spend protected)\n- Launch the 3 new ads I drafted\n- Fix the frequency cap and rotate creative\n\nSay \"do it\" and I'll execute. You'll approve each change before it goes live.",
+      "delay": 3800
+    }
+  ],
+  "findings": {
+    "kicker": "WHAT TOFFU MANAGES",
+    "title": "Everything that moves the needle on Meta.",
+    "items": [
+      {
+        "title": "Budget bleeding on zero-conversion ad sets",
+        "desc": "Toffu finds every ad set that has spent without returning purchases. It shows you the exact amount, how long it has been running, and pauses it on your approval."
+      },
+      {
+        "title": "New ads written and launched",
+        "desc": "Describe what you want to promote and Toffu writes the headlines, primary text, and descriptions. It creates the ad in your account. No back-and-forth with a copywriter."
+      },
+      {
+        "title": "Audience fatigue before it kills performance",
+        "desc": "Toffu monitors frequency across every ad set. When an audience saturates, it flags it and rotates creative or expands targeting before CTR drops."
+      },
+      {
+        "title": "CPA above target",
+        "desc": "When a campaign runs above your CPA target for more than a few days, Toffu surfaces it with a recommendation: restructure, cut budget, or test a new angle."
+      },
+      {
+        "title": "Creative performance ranking",
+        "desc": "Toffu ranks every active ad by CTR, CPA, and ROAS. It shows you which three ads are carrying the account and which six are dragging it. Then acts on that."
+      },
+      {
+        "title": "Campaign structure problems",
+        "desc": "Overlapping audiences, duplicate ad sets, campaigns competing against each other for the same audience. Toffu finds structural issues that manual review misses."
+      }
+    ]
+  },
+  "howItWorks": {
+    "kicker": "HOW IT WORKS",
+    "title": "Connect. Review. Execute.",
+    "steps": [
+      {
+        "title": "Connect your Meta Ads account",
+        "desc": "One click. Toffu reads all campaigns, ad sets, ads, and performance data from the last 30 days. No manual exports. No setup."
+      },
+      {
+        "title": "See exactly what is wrong and what to do",
+        "desc": "Toffu gives you a plain-language breakdown: what is underperforming, why, and what action to take. Not a dashboard. An answer."
+      },
+      {
+        "title": "Toffu executes. You approve.",
+        "desc": "Pause a campaign. Launch a new ad. Shift budget. Toffu does the work inside your account. Every change is shown to you before it goes live."
+      }
+    ]
+  },
+  "afterSection": {
+    "kicker": "AFTER YOU CONNECT",
+    "title": "What Toffu does on day one.",
+    "subhead": "Most accounts surface $3,000 to $15,000 in recoverable spend in the first session.",
+    "items": [
+      {
+        "title": "Full account diagnosis",
+        "desc": "Every campaign, ad set, and ad reviewed against your targets. Wasted spend surfaced. Structural issues flagged."
+      },
+      {
+        "title": "Ready-to-launch ads",
+        "desc": "Toffu drafts replacement ads for your worst performers. Copy, targeting, and budget included. One approval to launch."
+      },
+      {
+        "title": "Ongoing monitoring",
+        "desc": "Toffu keeps watching. When something breaks or an opportunity appears, it messages you directly. No dashboards to check."
+      },
+      {
+        "title": "You stay in control",
+        "desc": "Nothing moves without your approval. Toffu is an operator, not an autopilot. You decide; Toffu executes."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Does Toffu make changes to my account automatically?",
+      "answer": "No. Every action Toffu proposes requires your explicit approval before it executes. You see exactly what will change and why before anything moves."
+    },
+    {
+      "question": "What Meta Ads data does Toffu read?",
+      "answer": "All of it. Campaigns, ad sets, ads, creatives, audiences, spend, conversions, frequency, and CPM. Toffu reads the same data you see in Ads Manager, plus relationships between objects that the UI buries."
+    },
+    {
+      "question": "Can Toffu actually create new ads in my account?",
+      "answer": "Yes. Toffu writes the copy, sets targeting, selects budget, and creates the ad directly in your Meta account. You review and approve before it goes live."
+    },
+    {
+      "question": "I already have an agency managing my Meta Ads. Is this for me?",
+      "answer": "Yes. Toffu gives you a second set of eyes that runs 24/7. Many users run Toffu alongside their agency to verify recommendations and catch issues between reporting cycles."
+    },
+    {
+      "question": "How long does the first analysis take?",
+      "answer": "Under 60 seconds from connection to diagnosis. Toffu reads the last 30 days of data and gives you a prioritized action list immediately."
+    },
+    {
+      "question": "What if I only want analysis, not execution?",
+      "answer": "That works too. You can use Toffu purely for diagnosis and recommendations. Execution is always opt-in, never required."
+    }
+  ],
+  "finalCta": {
+    "title": "Your Meta Ads are running right now.",
+    "subhead": "Some of those ad sets are spending with no conversions. Some of your best ads are limited by budget. Toffu finds all of it in 60 seconds. Connect your account and see."
+  },
+  "seo": {
+    "title": "Meta Ads Management with AI | Toffu",
+    "description": "Toffu connects to your Meta Ads account, finds wasted spend, creates new ads, and manages campaigns. You approve every change before it goes live. See results in 60 seconds.",
+    "keywords": [
+      "meta ads management",
+      "facebook ads optimization",
+      "meta ads AI",
+      "facebook campaign management",
+      "meta ads agency alternative",
+      "improve facebook ads",
+      "facebook ads audit"
+    ],
+    "ogTitle": "Meta Ads Management with AI | Toffu",
+    "ogDescription": "Connect your Meta Ads. Toffu finds what's broken, writes new ads, and fixes it. You approve every move.",
+    "ogImage": "/og.png"
+  }
+}

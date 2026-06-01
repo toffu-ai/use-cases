@@ -1,7 +1,7 @@
 {
   "slug": "whatsapp-to-creative",
   "signupUrl": "/account/sign-up?utm_source=organic&utm_medium=referral&utm_campaign=whatsapp-to-creative",
-  "prefillPrompt": "Create a Meta ad for our summer sale",
+  "prefillPrompt": "Connect WhatsApp and create my first Meta ad creative from there",
   "ctaButtonText": "Create your first ad",
   "hero": {
     "headline": "Create Meta ad creatives from WhatsApp.",
@@ -11,7 +11,7 @@
   "demo": [
     {
       "role": "user",
-      "content": "Create a Meta ad for our summer sale. Warm background, show the discount clearly.",
+      "content": "Create a Meta ad for our new product launch. Warm background, show the product clearly.",
       "delay": 0
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "role": "assistant",
-      "content": "**Meta Ad Creative Ready**\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now\n\nCreative uploaded to your Meta Ads account. Paused for your review.\n\nSay \"go live\" and I'll activate it.",
+      "content": "**Meta Ad Creative Ready**\n\nHeadline: \"Our Newest Drop Is Here\"\nPrimary text: \"Just launched. Designed for everyday use. Free shipping over $50. Limited stock available.\"\nCTA: Shop Now\n\nCreative uploaded to your Meta Ads account. Paused for your review.\n\nSay \"go live\" and I'll activate it.",
       "imageUrl": "https://i.toffu.ai/m7k3lkbx.png",
       "delay": 3800
     }

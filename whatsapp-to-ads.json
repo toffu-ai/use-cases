@@ -1,7 +1,7 @@
 {
   "slug": "whatsapp-to-ads",
   "signupUrl": "/account/sign-up?utm_source=organic&utm_medium=referral&utm_campaign=whatsapp-to-ads",
-  "prefillPrompt": "Create a Meta ad for our summer sale",
+  "prefillPrompt": "Connect WhatsApp and launch my first ad campaign from there",
   "ctaButtonText": "Launch your first campaign",
   "hero": {
     "headline": "Launch campaigns from WhatsApp.",
@@ -11,7 +11,7 @@
   "demo": [
     {
       "role": "user",
-      "content": "Create a Meta ad for our summer sale",
+      "content": "Create a Meta ad for our new product launch",
       "delay": 0
     },
     {
@@ -26,12 +26,12 @@
     },
     {
       "role": "assistant",
-      "content": "**Meta Ad Ready**\n\nHeadline: \"Summer Sale Is Live\"\nPrimary text: \"Shop our biggest sale of the year. Up to 40% off. Free shipping over $50. Limited time only.\"\nCTA: Shop Now | Landing page: yourdomain.com/summer-sale\n\nAd uploaded to your Meta Ads account. Paused for your review.\n\nSay \"go live\" and I'll activate it.",
+      "content": "**Meta Ad Ready**\n\nHeadline: \"Our Newest Drop Is Here\"\nPrimary text: \"Just launched. Designed for everyday use. Free shipping over $50. Limited stock available.\"\nCTA: Shop Now | Landing page: yourdomain.com/new-arrivals\n\nAd uploaded to your Meta Ads account. Paused for your review.\n\nSay \"go live\" and I'll activate it.",
       "delay": 3800
     },
     {
       "role": "user",
-      "content": "Now create a Google search campaign for the same sale, $50/day, targeting the US",
+      "content": "Now create a Google search campaign for the same product, $50/day, targeting the US",
       "delay": 6000
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "role": "assistant",
-      "content": "**Google Search Campaign Ready**\n\nCampaign: \"Summer Sale 2026\"\nBudget: $50/day | Targeting: United States | Bidding: Maximize Conversions\n\n**Ad Group: Summer Sale**\n- 8 keywords (EXACT + PHRASE): \"summer sale\", \"summer deals 2026\", \"buy summer collection\" and 5 more\n- 3 headlines: \"Summer Sale Is Live\", \"Up to 40% Off This Summer\", \"Shop the Summer Sale Now\"\n- 2 descriptions: \"Limited-time summer deals on everything you need. Free shipping over $50.\" | \"Shop now and save big. Sale ends soon.\"\n\nCampaign is paused for your review.\n\nSay \"go live\" and I'll enable it.",
+      "content": "**Google Search Campaign Ready**\n\nCampaign: \"New Product Launch\"\nBudget: $50/day | Targeting: United States | Bidding: Maximize Conversions\n\n**Ad Group: New Arrivals**\n- 8 keywords (EXACT + PHRASE): \"new arrivals\", \"shop new collection\", \"latest drop\" and 5 more\n- 3 headlines: \"Our Newest Drop Is Here\", \"Just Launched. Free Shipping.\", \"Shop New Arrivals Now\"\n- 2 descriptions: \"Discover our newest product. Free shipping over $50.\" | \"Just launched. Limited stock. Shop now.\"\n\nCampaign is paused for your review.\n\nSay \"go live\" and I'll enable it.",
       "delay": 9400
     }
   ],

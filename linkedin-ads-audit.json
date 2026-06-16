@@ -1,6 +1,6 @@
 {
   "slug": "linkedin-ads-audit",
-  "signupUrl": "/account/sign-up?utm_source=google&utm_medium=cpc&utm_campaign=linkedin-ads-audit",
+  "signupUrl": "/account/sign-up",
   "prefillPrompt": "Audit my LinkedIn Ads account",
   "ctaButtonText": "Audit my LinkedIn Ads",
   "hero": {

@@ -1,6 +1,6 @@
 {
   "slug": "meta-ads-audit",
-  "signupUrl": "/account/sign-up?utm_source=google&utm_medium=cpc&utm_campaign=meta-ads-audit",
+  "signupUrl": "/account/sign-up",
   "prefillPrompt": "Audit my Meta Ads account",
   "ctaButtonText": "Audit my Meta Ads",
   "hero": {

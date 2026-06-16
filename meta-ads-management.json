@@ -1,6 +1,6 @@
 {
   "slug": "meta-ads-management",
-  "signupUrl": "/account/sign-up?utm_source=google&utm_medium=cpc&utm_campaign=meta-ads-management",
+  "signupUrl": "/account/sign-up",
   "prefillPrompt": "Connect my Meta Ads account and show me how you can improve my campaigns",
   "ctaButtonText": "Connect Meta Ads and see it live",
   "hero": {

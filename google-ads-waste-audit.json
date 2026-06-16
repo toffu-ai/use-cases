@@ -1,6 +1,6 @@
 {
   "slug": "google-ads-waste-audit",
-  "signupUrl": "/account/sign-up?utm_source=google&utm_medium=cpc&utm_campaign=google-ads-waste-audit",
+  "signupUrl": "/account/sign-up",
   "prefillPrompt": "Audit my Google Ads account for waste",
   "ctaButtonText": "Audit my Google Ads",
   "hero": {
